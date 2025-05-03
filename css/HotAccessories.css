@@ -1,0 +1,22 @@
+.HotAccessories{
+    display: flex;
+    width: 90vw;
+    margin: auto; /* Shift from left side */
+}
+.HotAccessories > div:first-child > img{ /* Music cover*/
+width: 22vw; /* Size Of Cover Photo is increase*/
+cursor: pointer;
+transition: all 0.5;
+}
+.HotAccessories > div:first-child > img{ 
+    box-shadow: 0px 6px 15px rgba(219, 19, 19, 0.832);
+}
+.HotAccessories > div:last-child{
+/*Remaining Images Headphone, Earbuds, etc*/
+display: flex; /*To convert column to row*/
+flex-wrap: wrap; /*Split the items These all are come into the one line using this property we split the items*/
+} 
+.HotAccessories > div:last-child > img{
+    box-shadow: 0px 6px 15px rgba(219, 19, 19, 0.832);
+
+}
